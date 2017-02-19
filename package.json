@@ -1,0 +1,42 @@
+{
+  "name": "react-magic",
+  "version": "0.1.1",
+  "description": "A collection of magic animations for react",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-map/react-magic.git"
+  },
+  "scripts": {
+    "dev": "node dev/server",
+    "build": "webpack --config webpack-production.config.js --progress --colors",
+    "lib": "babel src -d lib --ignore **/*.spec.js"
+  },
+  "keywords": [
+    "react",
+    "animation",
+    "css in js",
+    "magic-animation",
+    "css inline"
+  ],
+  "author": "wrsden@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "aphrodite": "^1.1.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
