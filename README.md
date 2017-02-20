@@ -12,5 +12,6 @@ it is not an easy task to do it, even for simple animations. That's where react-
 <div style="text-align:center" align="center">
   <img src="https://react-map.github.io/react-magic/demo.gif" />
 </div>       
-##Demo online   
+## Demo online               
+
 A demo is available on the Github Pages webpage for react-magic [Check out demo](https://react-map.github.io/react-magic/)!          
