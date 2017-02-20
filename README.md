@@ -1,7 +1,7 @@
 # react-magic
-A collection of magic animations for react components. Although React provides a way to implement arbitrary animations, it is not an easy task to do it, even for simple animations.  That's where react-magic package comes in.  
-
 [![npm version](https://badge.fury.io/js/react-magic.svg)](https://www.npmjs.com/package/react-magic)
+  <a href="http://sioxas.github.io/"><img src="https://img.shields.io/travis/rust-lang/rust.svg" alt="react"></a>
+A collection of magic animations for react components. Although React provides a way to implement arbitrary animations, it is not an easy task to do it, even for simple animations.  That's where react-magic package comes in.  
    
 <div style="text-align:center" align="center">
   <img src="https://react-map.github.io/react-magic/demo.gif" />
