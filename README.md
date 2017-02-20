@@ -19,7 +19,7 @@ A demo is available on the Github Pages webpage for react-magic [Check out demo]
 
 ## Installation    
 
-React-magic is distributed via [npm](https://www.npmjs.com/):     
+React-magic is distributed via [npm](https://www.npmjs.com/package/react-magic):     
 
 ```
 npm install --save react-magic    
