@@ -39,7 +39,7 @@ or you can import a specific animation directly
 import swap from 'react-magic/lib/magic/swap'
 ```    
 
-usage with Aphrodite[more about aphrodite](https://github.com/Khan/aphrodite)     
+usage with [Aphrodite](https://github.com/Khan/aphrodite)     
 
 ```js
 import React, { Component, PropTypes } from 'react';
