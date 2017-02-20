@@ -11,7 +11,67 @@ it is not an easy task to do it, even for simple animations. That's where react-
    
 <div style="text-align:center" align="center">
   <img src="https://react-map.github.io/react-magic/demo.gif" />
-</div>       
+</div>    
+   
 ## Demo online               
 
 A demo is available on the Github Pages webpage for react-magic [Check out demo](https://react-map.github.io/react-magic/)!          
+
+## Installation    
+
+React-magic is distributed via [npm](https://www.npmjs.com/):     
+
+```
+npm install --save react-magic    
+```     
+
+## Usage
+
+You can import each animation directly from the main package
+
+```js
+import { swap } from 'react-magic'
+```
+
+or you can import a specific animation directly
+
+```js
+import swap from 'react-magic/lib/magic/swap'
+```    
+
+usage with Aphrodite[more about aphrodite](https://github.com/Khan/aphrodite)     
+
+```js
+import React, { Component, PropTypes } from 'react';
+import { StyleSheet, css } from 'aphrodite';
+
+import { swap } from 'react-magic';
+
+const styles = StyleSheet.create({
+    magic: {
+        animationName: swap,
+        animationDuration: '1s'
+    }
+});
+
+class App extends Component {
+    render() {
+        return (
+            <div>
+                <div className={css(styles.magic)}>
+                    <h2>react-magic</h2>
+                </div>
+            </div>
+        );
+    }
+}
+
+export default App;   
+```     
+
+## License   
+
+MIT  
+
+
+
