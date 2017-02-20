@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { StyleSheet, css } from 'aphrodite';
 
-import swap from '../src/magic/swap';
+import holeIn from '../src/math/holeIn';
 
 const root = {
     placeholder: {
@@ -24,7 +24,7 @@ const root = {
 }
 const styles = StyleSheet.create({
     magic: {
-        animationName: swap,
+        animationName: holeIn,
         animationDuration: '1s'
     }
 });

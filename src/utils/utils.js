@@ -64,7 +64,7 @@ export const skewXY = (
 
 export const rotateY = (
   a: CSSValue
-) => `rotateY(${a})`;
+) => `rotateY(${a}deg)`;
 
 export const rotate3d = (
   a: number,
@@ -86,7 +86,7 @@ export const translateY = (
 
 export const translateZ = (
   a: CSSValue,
-): string => `translateY(${a})`;
+): string => `translateZ(${a})`;
 
 export const translateXY = (
   a: CSSValue,
@@ -96,6 +96,10 @@ export const translateXY = (
 export const rotate = (
   a: CSSValue,
 ): string => `rotate(${a}deg)`;
+
+export const rotateX = (
+  a: CSSValue
+) => `rotateX(${a}deg)`;
 
 export const blur = (
   a: CSSValue,
