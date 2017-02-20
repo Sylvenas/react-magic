@@ -8,9 +8,11 @@
     "url": "https://github.com/react-map/react-magic.git"
   },
   "scripts": {
-    "dev": "node dev/server",
     "build": "webpack --config webpack-production.config.js --progress --colors",
-    "lib": "babel src -d lib --ignore **/*.spec.js"
+    "lib": "babel src -d lib --ignore **/*.spec.js",
+    "dev": "node dev/server",
+    "examples": "node examples/server",
+    "build-examples": "webpack --config examples/webpack-examples-server.config.js --progress --colors"
   },
   "keywords": [
     "react",
