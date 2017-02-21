@@ -69,6 +69,94 @@ class App extends Component {
 export default App;   
 ```     
 
+## Animations      
+
+```
+.
+├── magic
+│   |── magic     
+│   |── twisterInDown           
+│   |── twisterInUp         
+│   └── swap    
+├── bling                         
+│   |── puffIn             
+│   |── puffOut            
+│   |── vanishIn                           
+│   └── vanishOut                     
+├── staticEffects                         
+│   |── openDownLeft             
+│   |── openDownLeftReturn            
+│   |── openDownRight       
+│   |── openDownRightReturn    
+│   |── openUpLeft    
+│   |── openUpLeftReturn    
+│   |── openUpRight                        
+│   └── openUpRightReturn                
+├── staticEffectsOut                         
+│   |── openDownLeftOut             
+│   |── openDownRightOut            
+│   |── openUpLeftOut                           
+│   └── openUpRightOut     
+├── perspective                         
+│   |── perspectiveDown             
+│   |── perspectiveDownReturn            
+│   |── perspectiveLeft       
+│   |── perspectiveLeftReturn  
+│   |── perspectiveRight    
+│   |── perspectiveRightReturn    
+│   |── perspectiveUp                        
+│   └── perspectiveUpReturn              
+├── rotate                         
+│   |── rotateDownIn             
+│   |── rotateDownOut            
+│   |── rotateLeftIn       
+│   |── rotateLeftOut  
+│   |── rotateRightIn    
+│   |── rotateRightOut    
+│   |── rotateUpIn                        
+│   └── rotateUpOut               
+├── slide                         
+│   |── slideDown             
+│   |── slideDownReturn            
+│   |── slideLeft       
+│   |── slideLeftReturn  
+│   |── slideRight    
+│   |── slideRightReturn    
+│   |── slideUp                        
+│   └── slideUpReturn            
+├── math                                
+│   |── foolishIn       
+│   |── foolishOut  
+│   |── holeIn    
+│   |── holeOut    
+│   |── swashIn                        
+│   └── swashOut     
+├── tin                         
+│   |── tinDownIn             
+│   |── tinDownOut            
+│   |── tinLeftIn       
+│   |── tinLeftOut  
+│   |── tinRightIn    
+│   |── tinRightOut    
+│   |── tinUpIn                        
+│   └── tinUpOut     
+├── bomb
+│   |── bombLeftOut           
+│   └── bombRightOut           
+├── boing
+│   |── boingInUp           
+│   └── boingOutDown     
+├── space                         
+│   |── spaceInDown             
+│   |── spaceInLeft            
+│   |── spaceInRight       
+│   |── spaceInUp  
+│   |── spaceOutDown    
+│   |── spaceOutLeft    
+│   |── spaceOutRight                        
+│   └── spaceOutUp 
+.         
+```      
 ## License   
 
 MIT  

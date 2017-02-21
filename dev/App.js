@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { StyleSheet, css } from 'aphrodite';
 
-import holeIn from '../src/math/holeIn';
+import spaceOutUp from '../src/space/spaceOutUp';
 
 const root = {
     placeholder: {
@@ -14,17 +14,18 @@ const root = {
         borderRadius: '3px',
     },
     div: {
-        backgroundColor: '#FF6347',
+        backgroundColor: '#FF7374',
         width: '100%',
         height: '100%',
         position: 'absolute',
         borderRadius: '3px',
-        textAlign: 'center'
+        textAlign: 'center',
+        color:'#fff'
     }
 }
 const styles = StyleSheet.create({
     magic: {
-        animationName: holeIn,
+        animationName: spaceOutUp,
         animationDuration: '1s'
     }
 });
