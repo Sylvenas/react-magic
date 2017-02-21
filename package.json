@@ -1,7 +1,7 @@
 {
   "name": "react-magic",
-  "version": "0.1.5",
-  "description": "A collection of magic animations for react",
+  "version": "0.2.1",
+  "description": "A collection of magic animations for react components",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",

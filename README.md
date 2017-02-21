@@ -154,8 +154,7 @@ export default App;
 │   |── spaceOutDown    
 │   |── spaceOutLeft    
 │   |── spaceOutRight                        
-│   └── spaceOutUp 
-.         
+│   └── spaceOutUp         
 ```      
 ## License   
 
