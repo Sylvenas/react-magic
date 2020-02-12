@@ -10,7 +10,7 @@ it is not an easy task to do it, even for simple animations. That's where react-
 Most animations was implemented base on [magic](https://github.com/miniMAC/magic).
    
 <div style="text-align:center" align="center">
-  <img src="https://sylvenas.github.io/react-magic/demo.gif" />
+  <img src="https://p1.music.126.net/T4JA1NmZlSTZZZK4EgBncA==/109951164699178486.gif" />
 </div>    
    
 ## Demo online               
