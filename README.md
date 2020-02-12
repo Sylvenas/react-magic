@@ -15,7 +15,7 @@ Most animations was implemented base on [magic](https://github.com/miniMAC/magic
    
 ## Demo online               
 
-A demo is available on the Github Pages webpage for react-magic [Check out demo](https://sylvenas.github.io/react-magic/)!          
+A demo is available on the Github Pages webpage for react-magic [Check out demo](https://lit-forest.github.io/react-magic/react-magic.html)!          
 
 ## Installation    
 
