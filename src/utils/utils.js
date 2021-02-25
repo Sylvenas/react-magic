@@ -7,6 +7,7 @@ import type { CSSValue } from './types';
  * of the functions it composed. If the original function
  * accepted multiple arguments, they must be passed as
  * an array.
+ 
  * @example
  * const translateXandRotateY = compose(translateX, rotateY);
  * const cssValue = translateXandRotateY('-5px', '30deg');
